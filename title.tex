@@ -1,0 +1,26 @@
+\makeatletter
+
+\hypersetup{
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+	pdfkeywords={\@keywords}
+}
+
+\begin{center}
+	\fontsize{14pt}{16pt}\selectfont
+	\@seminar
+
+	\vspace{24pt}
+
+	\MakeUppercase{\@title}
+
+	\vspace{24pt}
+
+	\normalsize
+	\@author
+\end{center}
+
+\vspace{24pt}
+\textit{Schlüsselwörter: \@keywords}
+
+\makeatother
