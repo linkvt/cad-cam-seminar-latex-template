@@ -32,7 +32,13 @@
 \addtokomafont{section}{\rmfamily\mdseries}
 \addtokomafont{subsection}{\rmfamily\mdseries}
 \addtokomafont{subsubsection}{\rmfamily\mdseries}
+
+% Schriftart und -stärke der Literarturangaben
 \addto\captionsngerman{\renewcommand{\refname}{\bfseries\normalsize Literaturangaben}}
+
+% Abstände vor und nach Überschriften
+%\RedeclareSectionCommand[beforeskip=-24pt,afterskip=12pt]{section}
+%\RedeclareSectionCommand[beforeskip=-12pt,afterskip=12pt]{subsection}
 
 
 
@@ -45,7 +51,7 @@
 % Bildunterschriften
 \usepackage[justification=justified,singlelinecheck=false,font=footnotesize]{caption}
 \DeclareCaptionLabelSeparator{dot}{.\quad}
-\captionsetup{labelsep=dot}
+\captionsetup{labelsep=dot,skip=12pt}
 \addto\captionsngerman{\renewcommand{\figurename}{Bild}}
 
 
