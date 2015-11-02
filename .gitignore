@@ -38,4 +38,4 @@
 *.tdo
 
 ### Generated PDF ###
-*.pdf
+/*.pdf
